@@ -1,5 +1,5 @@
 var express = require('express');
-
+app.use(express.static('public'));
 var app = express();
 app.get('/', function (req, res) {
   res.sendfile('./views/index.html');
