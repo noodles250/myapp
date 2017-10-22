@@ -1,4 +1,5 @@
 var express = require('express');
+var bodyParse = require('body-parser')
 var app = express();
 
 app.use(express.static('static'))
